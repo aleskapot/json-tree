@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "label": "Ride root",
+      "type": "ride"
+    },
+    {
+      "id": 10,
+      "label": "Ride inner",
+      "type": "ride",
+      "parent": {
+        "id": 1,
+        "type": "ride"
+      }
+    },
+    {
+      "id": 1,
+      "label": "Doc 1",
+      "type": "document",
+      "parent": {
+        "id": 10,
+        "type": "ride"
+      }
+    },
+    {
+      "id": 1,
+      "label": "towel red",
+      "type": "product",
+      "parent": {
+        "id": 1,
+        "type": "document"
+      }
+    },
+    {
+      "id": 2,
+      "label": "towel green",
+      "type": "product",
+      "parent": {
+        "id": 1,
+        "type": "document"
+      }
+    },
+    {
+      "id": 3,
+      "label": "towel blue",
+      "type": "product",
+      "parent": {
+        "id": 111111,
+        "type": "document"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Doc 2",
+      "type": "document",
+      "parent": {
+        "id": 10,
+        "type": "ride"
+      }
+    }
+  ]
+}
